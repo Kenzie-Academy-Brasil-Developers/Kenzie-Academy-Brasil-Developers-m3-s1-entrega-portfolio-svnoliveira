@@ -1,0 +1,14 @@
+.header {
+    height: 17.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header > nav > ul {
+    width: 25.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

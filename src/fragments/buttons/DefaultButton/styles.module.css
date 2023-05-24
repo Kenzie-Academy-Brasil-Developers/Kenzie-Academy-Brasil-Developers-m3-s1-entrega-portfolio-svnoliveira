@@ -1,5 +1,9 @@
 .button {
     background-color: var(--color-primary);
+    padding: 1.1rem 0rem;
+    width: 11.4rem;
+    font: var(--paragraph);
+    border-radius: var(--radius-small);
 }
 
 .button:hover {

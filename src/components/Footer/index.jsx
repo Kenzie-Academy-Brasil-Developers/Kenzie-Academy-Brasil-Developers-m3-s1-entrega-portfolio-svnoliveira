@@ -20,8 +20,7 @@ export const Footer = () => {
                     <img src={gitHubIcon} alt="Github Icon, cat silhouette colored blue" />
                 </li>
             </ul>
-            <Paragraph>Todos os direitos reservados - 
-{user}</Paragraph>
+            <Paragraph>Todos os direitos reservados - {user}</Paragraph>
         </footer>
     )
 }

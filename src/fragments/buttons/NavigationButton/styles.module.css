@@ -1,3 +1,5 @@
 .button {
     background-color: var(--black);
+    font: var(--paragraph);
+    cursor: pointer;
 }
