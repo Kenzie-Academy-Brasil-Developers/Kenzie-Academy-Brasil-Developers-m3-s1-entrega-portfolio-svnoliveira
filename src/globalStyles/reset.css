@@ -45,9 +45,10 @@ body {
     overflow-x: hidden;
 }
 
-body, input, button, textarea {
+body, input, button, textarea, a {
     font-family: 'Inter', sans-serif;
     color: var(--white);
+    text-decoration: none;
 }
 
 button {
