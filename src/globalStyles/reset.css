@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+
+    --black: #000000;
+    --white: #FFFFFF;
+
+    --title1: bold 4.8rem/4.2rem 'Inter';
+    --title2: bold 4rem/3.6rem 'Inter';
+    --title3: bold 2.2rem 'Inter';
+    --label: normal 1.4rem 'Inter';
+    --link: bold 1.6rem 'Inter';
+    --paragraph: normal 1.6rem 'Inter';
+
+    --radius-small: 1.2rem;
+    --radius-large: 2.5rem;
+    
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-color: var(--black);
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+body, input, button, textarea {
+    font-family: 'Inter', sans-serif;
+    color: var(--white);
+}
+
+button {
+    cursor: pointer;
+}
