@@ -1,4 +1,4 @@
-.header {
+#root > header {
     height: 17.4rem;
     display: flex;
     justify-content: space-around;
@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-.header > nav > ul {
+#root > header > nav > ul {
     width: 25.6rem;
     display: flex;
     flex-direction: row;

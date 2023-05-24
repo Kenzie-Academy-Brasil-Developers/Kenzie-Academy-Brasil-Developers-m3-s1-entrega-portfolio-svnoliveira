@@ -1,11 +1,11 @@
 import icon from '../../assets/portfolio.png'
 import { DefaultButton } from '../../fragments/buttons/DefaultButton'
 import { NavigationButton } from '../../fragments/buttons/NavigationButton'
-import styles from './styles.module.css'
+import './styles.css'
 
 export const Header = () => {
     return (
-        <header className={styles.header}>
+        <header>
             <img src={icon} alt="icon for the page, the name Portfolio written in white" />
             <nav>
                 <ul>
