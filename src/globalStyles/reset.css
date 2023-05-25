@@ -45,11 +45,25 @@ body {
     overflow-x: hidden;
 }
 
-body, input, button, textarea {
+body, input, button, textarea, a {
     font-family: 'Inter', sans-serif;
     color: var(--white);
+    text-decoration: none;
+}
+
+section {
+    padding: 0rem 2.7rem;
 }
 
 button {
     cursor: pointer;
+}
+
+@media (min-width: 768px){
+    #root > header, section{
+        max-width: 95rem;
+        padding-left: 2.7rem;
+        padding-right: 2.7rem;
+        margin: auto;
+    }
 }

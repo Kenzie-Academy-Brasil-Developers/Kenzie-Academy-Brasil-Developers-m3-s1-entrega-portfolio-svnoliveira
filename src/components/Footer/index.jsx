@@ -4,10 +4,12 @@ import { user } from "../../data/user"
 import gitHubIcon from "../../assets/github-icon.png"
 import linkedinIcon from "../../assets/linkedin-icon.png"
 import whatsAppIcon from "../../assets/whatsapp-icon.png"
+import './styles.css'
 
 export const Footer = () => {
     return (
-        <footer>
+        <>
+        <footer id="footer">
             <Title2>Contato</Title2>
             <ul>
                 <li>
@@ -20,8 +22,9 @@ export const Footer = () => {
                     <img src={gitHubIcon} alt="Github Icon, cat silhouette colored blue" />
                 </li>
             </ul>
-            <Paragraph>Todos os direitos reservados - 
-{user}</Paragraph>
+            <Paragraph>Todos os direitos reservados - {user}</Paragraph>
         </footer>
+        <div id="end"></div>
+        </>
     )
 }

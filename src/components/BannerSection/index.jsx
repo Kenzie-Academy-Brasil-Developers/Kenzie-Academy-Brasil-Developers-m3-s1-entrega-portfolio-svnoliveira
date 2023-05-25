@@ -4,7 +4,7 @@ import { Label } from "../../fragments/text/Label/index.jsx"
 import { Paragraph } from "../../fragments/text/Paragraph/index.jsx"
 import { Title1 } from "../../fragments/text/Title1/index.jsx"
 import banner from'../../../src/assets/banner-img.png'
-
+import './styles.css'
 export const BannerSection = () => {
     return (
         <section id="banner-section">

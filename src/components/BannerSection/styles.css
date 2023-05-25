@@ -1,0 +1,26 @@
+#banner-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6.3rem;
+}
+
+#banner-section > img{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+#banner__text-container {
+    height: 27.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px){
+    #banner-section {
+        flex-wrap: nowrap;
+    }
+    #banner-section > img, #banner__text-container{
+        width: 48%;
+    }
+}
