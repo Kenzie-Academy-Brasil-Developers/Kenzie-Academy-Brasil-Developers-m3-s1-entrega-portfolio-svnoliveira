@@ -6,7 +6,7 @@ import './styles.css'
 export const Header = () => {
     return (
         <header>
-            <img src={icon} alt="icon for the page, the name Portfolio written in white" />
+            <img src={icon} alt='icon for the page, the name Portfolio written in white' />
             <nav>
                 <ul>
                     <NavigationButton><a href='#about-me-section'>Sobre</a></NavigationButton>

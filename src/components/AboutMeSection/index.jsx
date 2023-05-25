@@ -1,10 +1,10 @@
-import { Paragraph } from "../../fragments/text/Paragraph"
-import { Title2 } from "../../fragments/text/Title2"
+import { Paragraph } from '../../fragments/text/Paragraph'
+import { Title2 } from '../../fragments/text/Title2'
 import './styles.css'
 
 export const AboutMeSection = () => {
     return (
-        <section id="about-me-section">
+        <section id='about-me-section'>
         <Title2>Sobre mim</Title2>
         <Paragraph>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna, 
