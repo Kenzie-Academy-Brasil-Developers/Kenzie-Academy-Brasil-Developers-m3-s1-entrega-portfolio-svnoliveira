@@ -51,6 +51,10 @@ body, input, button, textarea, a {
     text-decoration: none;
 }
 
+section {
+    padding: 0rem 2.7rem;
+}
+
 button {
     cursor: pointer;
 }
