@@ -12,3 +12,20 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media (min-width: 768px){
+    #root > header {
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+        padding-top: 1.7rem;
+    }
+
+    #root > header > nav {
+        padding-top: 1.2rem;
+    }
+
+    #root > header > img {
+        padding-top: 1.8rem;
+    }
+}

@@ -8,6 +8,7 @@ import './styles.css'
 
 export const Footer = () => {
     return (
+        <>
         <footer id="footer">
             <Title2>Contato</Title2>
             <ul>
@@ -23,5 +24,7 @@ export const Footer = () => {
             </ul>
             <Paragraph>Todos os direitos reservados - {user}</Paragraph>
         </footer>
+        <div id="end"></div>
+        </>
     )
 }

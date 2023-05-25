@@ -6,6 +6,7 @@
 
 #banner-section > img{
     max-width: 100%;
+    object-fit: contain;
 }
 
 #banner__text-container {
@@ -15,3 +16,11 @@
     justify-content: space-between;
 }
 
+@media (min-width: 768px){
+    #banner-section {
+        flex-wrap: nowrap;
+    }
+    #banner-section > img, #banner__text-container{
+        width: 48%;
+    }
+}

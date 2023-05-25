@@ -9,9 +9,16 @@
 #project-section > ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 2.5rem;
 }
 
 #project-section > ul > li {
     width: 100%;
+}
+
+@media (min-width: 768px){
+    #project-section > ul > li {
+        width: 45%;
+    }
 }
