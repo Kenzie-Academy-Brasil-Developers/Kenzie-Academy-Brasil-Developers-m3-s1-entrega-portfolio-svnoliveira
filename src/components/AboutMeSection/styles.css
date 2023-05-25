@@ -1,0 +1,6 @@
+#about-me-section {
+    padding-top: 9.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}

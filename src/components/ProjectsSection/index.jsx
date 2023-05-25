@@ -1,6 +1,7 @@
 import { Title2 } from "../../fragments/text/Title2";
 import { projects } from "../../data/projects";
 import { ProjectCard } from "../../fragments/cards/ProjectCard";
+import './styles.css';
 
 export const ProjectsSection = () => {
     const listProjects = projects.map(project =>

@@ -14,7 +14,7 @@ export const Header = () => {
                     <NavigationButton><a href='#project-section'>Projetos</a></NavigationButton>
                 </ul>
             </nav>
-            <DefaultButton>Contato</DefaultButton>
+            <DefaultButton><a href='#footer'>Contato</a></DefaultButton>
         </header>
     )
 }

@@ -1,0 +1,17 @@
+#tech-section {
+    padding-top: 9.5rem;
+}
+
+#tech-section > h2{
+    padding-bottom: 2.5rem;
+}
+
+#tech-section > ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#tech-section > ul > li {
+    width: 100%;
+}

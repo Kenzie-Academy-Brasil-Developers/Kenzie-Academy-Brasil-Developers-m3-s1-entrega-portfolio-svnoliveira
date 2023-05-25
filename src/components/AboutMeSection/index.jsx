@@ -1,6 +1,6 @@
 import { Paragraph } from "../../fragments/text/Paragraph"
 import { Title2 } from "../../fragments/text/Title2"
-
+import './styles.css'
 
 export const AboutMeSection = () => {
     return (
