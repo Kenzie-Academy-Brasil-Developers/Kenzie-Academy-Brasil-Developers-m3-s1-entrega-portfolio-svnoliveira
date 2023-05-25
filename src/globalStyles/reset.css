@@ -58,3 +58,12 @@ section {
 button {
     cursor: pointer;
 }
+
+@media (min-width: 768px){
+    #root > header, section{
+        max-width: 95rem;
+        padding-left: 2.7rem;
+        padding-right: 2.7rem;
+        margin: auto;
+    }
+}
