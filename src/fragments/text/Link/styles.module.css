@@ -1,9 +1,9 @@
-.text {
+.text > a {
     font: var(--link);
     color: var(--color-primary);
     cursor: pointer;
 }
 
-.text:hover {
+.text >a:hover {
     color:var(--color-primary-hover)
 }

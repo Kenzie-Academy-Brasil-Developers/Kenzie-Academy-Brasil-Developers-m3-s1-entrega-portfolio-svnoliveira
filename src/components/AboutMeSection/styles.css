@@ -5,6 +5,10 @@
     gap: 2.5rem;
 }
 
+#about-me-section > :first-child {
+    min-width: 30%;
+}
+
 @media (min-width: 768px){
     #about-me-section {
         flex-wrap: nowrap;

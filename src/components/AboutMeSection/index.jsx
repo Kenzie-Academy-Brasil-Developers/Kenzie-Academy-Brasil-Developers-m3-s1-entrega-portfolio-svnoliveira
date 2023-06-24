@@ -5,14 +5,15 @@ import './styles.css'
 export const AboutMeSection = () => {
     return (
         <section id='about-me-section'>
-        <Title2>Sobre mim</Title2>
-        <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna, 
-            imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam a ipsum finibus, 
-            dictum leo non, ultrices dui. Nunc id felis pharetra, vehicula enim in, suscipit nisi. 
-            Mauris eget sapien a velit facilisis ullamcorper feugiat nec orci. Duis ac iaculis turpis, 
-            at feugiat orci.
-        </Paragraph>
+            <Title2>Sobre mim</Title2>
+            <Paragraph>
+                Profissional na área de programação e desenvolvimento de softwares e sites, sempre interessado e estudando várias linguagens de programação, experiência inicial com C++, onde desenvolvi vários scripts para usuários e administradores de jogos, gestão de dados em databases SQL e APIs, experiência em desenvolvimento de websites e aplicativos com React, Javascript, HTML e CSS, usando sempre as melhores práticas e versionamento com GIT flow.
+                Disposto a aprender a linguagem usada pela empresa.
+
+                Qualidades:
+                Facilidade em Lógica, sistemas, divisão de tarefas, calma e bom temperamento em ambientes de grupo.
+
+            </Paragraph>
         </section>
     )
 }

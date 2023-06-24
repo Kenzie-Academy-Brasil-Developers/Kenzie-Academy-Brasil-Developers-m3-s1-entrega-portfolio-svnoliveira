@@ -11,8 +11,8 @@ export const BannerSection = () => {
             <div id="banner__text-container">
                 <Label>{username}</Label>
                 <Title1>Bem vindo ao meu portfólio</Title1>
-                <Paragraph>Uma frase interessante sobre mim</Paragraph>
-                <DefaultButton>Saiba Mais</DefaultButton>
+                <Paragraph>"Creativity is the fuel that transforms dreams into extraordinary realities."</Paragraph>
+                <DefaultButton><a href="https://www.linkedin.com/in/samuel-oliveira-4643351a1/" target="_blank">Saiba Mais</a></DefaultButton>
             </div>
             <img src={banner} alt="Imagem de telas desenvolvendo códigos no VS code" />
         </section>

@@ -4,7 +4,7 @@ import { Link } from '../../text/Link'
 import styles from './styles.module.css'
 import gitHubIcon from '../../../assets/git-icon.png'
 
-export const ProjectCard = ({ name, description }) => {
+export const ProjectCard = ({ name, description, projectUrl }) => {
     return (
         <li className={styles.card}>
             <header>
@@ -13,7 +13,7 @@ export const ProjectCard = ({ name, description }) => {
             </header>
             <div>
             <Paragraph>{description}</Paragraph>
-            <Link>Saiba Mais</Link>
+            <Link><a href={projectUrl}Saiba Mais target='_blank'>Link do projeto</a></Link>
             </div>
         </li>
     )

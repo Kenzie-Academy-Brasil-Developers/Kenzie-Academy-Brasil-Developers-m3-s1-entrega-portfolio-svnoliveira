@@ -8,7 +8,7 @@ export const ProjectsSection = () => {
         <section id='project-section'>
             <Title2>Projetos</Title2>
             <ul>{projects.map(project =>
-                <ProjectCard name={project.name} description={project.description}/>)}
+                <ProjectCard key={project.id} projectUrl={project.url} name={project.name} description={project.description}/>)}
             </ul>
         </section>
     )
