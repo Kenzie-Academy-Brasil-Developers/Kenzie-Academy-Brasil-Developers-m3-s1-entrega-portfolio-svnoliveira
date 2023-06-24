@@ -13,7 +13,7 @@ export const ProjectCard = ({ name, description, projectUrl }) => {
             </header>
             <div>
             <Paragraph>{description}</Paragraph>
-            <Link><a href={projectUrl}Saiba Mais target='_blank'>Link do projeto</a></Link>
+            <Link><a href={projectUrl} target='_blank'>Link do projeto</a></Link>
             </div>
         </li>
     )
