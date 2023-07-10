@@ -23,4 +23,10 @@ export const projects = [
     description: "Landing page de venda de ímóvel",
     url: "https://svnoliveira.github.io/BaIlerIncorporated/",
   },
+  {
+    id: 5,
+    name: "Kenzie Movie",
+    description: "Página de avaliação de filmes",
+    url: "https://kenzie-movies-team3.vercel.app/",
+  },
 ];
