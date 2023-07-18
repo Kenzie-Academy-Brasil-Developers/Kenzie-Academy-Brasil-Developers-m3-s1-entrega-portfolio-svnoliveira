@@ -29,4 +29,10 @@ export const projects = [
     description: "Página de avaliação de filmes",
     url: "https://kenzie-movies-team3.vercel.app/",
   },
+  {
+    id: 6,
+    name: "Fashion Store",
+    description: "Fashion webstore (ENGLISH)",
+    url: "fashion-store-nine-ebon.vercel.app/",
+  },
 ];
