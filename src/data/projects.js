@@ -33,6 +33,6 @@ export const projects = [
     id: 6,
     name: "Fashion Store",
     description: "Fashion webstore (ENGLISH)",
-    url: "fashion-store-nine-ebon.vercel.app/",
+    url: "https://fashion-store-nine-ebon.vercel.app/",
   },
 ];
