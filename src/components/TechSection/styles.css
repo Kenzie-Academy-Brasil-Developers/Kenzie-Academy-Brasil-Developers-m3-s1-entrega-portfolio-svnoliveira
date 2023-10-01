@@ -2,7 +2,7 @@
     padding-top: 9.5rem;
 }
 
-#tech-section > h2{
+#tech-section > h2, #tech-section > h3{
     padding-bottom: 2.5rem;
 }
 
@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 2rem;
+    padding-bottom: 2.5rem;
 }
 
 #tech-section > ul > li {

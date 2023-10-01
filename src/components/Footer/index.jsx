@@ -6,11 +6,11 @@ import linkedinIcon from '../../assets/linkedin-icon.png'
 import whatsAppIcon from '../../assets/whatsapp-icon.png'
 import './styles.css'
 
-export const Footer = () => {
+export const Footer = ({useEnglish}) => {
     return (
         <>
         <footer id='footer'>
-            <Title2>Contato</Title2>
+            <Title2>{useEnglish ? "Contact" :"Contato"}</Title2>
             <ul>
                 <li>
                 <a href="https://wa.me/5534996457475" target='_blank'><img src={whatsAppIcon} alt='Whatsapp Icon, telephone colored blue' /></a>
@@ -22,7 +22,7 @@ export const Footer = () => {
                     <a href="https://github.com/svnoliveira" target='_blank'><img src={gitHubIcon} alt='Github Icon, cat silhouette colored blue' /></a>
                 </li>
             </ul>
-            <Paragraph>Todos os direitos reservados - {user}</Paragraph>
+            <Paragraph>{useEnglish ? "All rights reserved" : "Todos os direitos reservados"} - {user}</Paragraph>
         </footer>
         <div id='end'></div>
         </>
